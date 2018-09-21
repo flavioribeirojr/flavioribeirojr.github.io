@@ -1,0 +1,19 @@
+.my-picture {
+    margin: 1.2rem auto;
+    height: 180px;
+    width: 180px;
+
+    img {
+        padding: 5px;
+        background-color: #b2bec3;
+    }
+}
+
+.card {
+    background-color: inherit;
+    box-shadow: none;
+
+    p {
+        font-family: Inconsolata, cursive;
+    }
+}

@@ -7,6 +7,11 @@ module.exports = {
     path: path.join(__dirname),
     filename: 'bundle.js'
   },
+  resolve: {
+    alias: {
+      '@': path.join(__dirname, 'src')
+    }
+  },
   module: {
     rules: [
       {

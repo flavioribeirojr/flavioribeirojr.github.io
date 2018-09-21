@@ -1,3 +1,9 @@
-h1 {
-    color: gray;
+@import "~bulma";
+
+.hero {
+    background-color:  #2d3436;
+
+    .hero-body {
+        padding: 0 1.5rem;
+    }
 }
